@@ -386,7 +386,7 @@ class languageDB extends lexicon {
             array( 'gore', 'gore' ),
             array( 'pale', 'pale' ),
             array ( '(file|lam?bel)', 'label'),
-            array( 'point', 'point' ), // TODO draw this - see meaning 2 parker/point
+            array( '?plain point', 'base' ), // (plain) point and base are synonyms
             array( 'ecclesiastical pale', 'pale-ecclesiastical' ),
             array( 'canadian pale', 'pale-canadian' ),
             array( 'quarter', 'quarter' ),
