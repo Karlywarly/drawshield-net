@@ -386,7 +386,7 @@ class languageDB extends lexicon {
             array( 'gore', 'gore' ),
             array( 'pale', 'pale' ),
             array ( '(file|lam?bel)', 'label'),
-            array( 'point', 'point' ), // TODO draw this - see meaning 2 parker/point
+            array( 'plaine? point', 'base' ), // (plain) point and base are synonyms
             array( 'ecclesiastical pale', 'pale-ecclesiastical' ),
             array( 'canadian pale', 'pale-canadian' ),
             array( 'quarter', 'quarter' ),
@@ -416,6 +416,9 @@ class languageDB extends lexicon {
             array( '?royal trea?s?sure', 'tressure' ),
             array( 'lozenge throughout', 'vetu' ),
             array( 'lozenge in point', 'vetu' ),
+            array( 'point (in point|pointed|enty)', 'point-in-point'),
+            array( 'point dexter', 'point-dexter'),
+            array( 'point sinister', 'point-sinister'),
           ),
         self::ORDINARY_PREFIX => array ( // can be before (and after) ordinary
             'sinister', 'reversed', 'dexter', 'inverted', 
